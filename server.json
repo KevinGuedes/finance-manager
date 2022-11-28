@@ -1,0 +1,52 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de sites",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-11-07T23:09:22.061Z"
+    },
+    {
+      "id": 2,
+      "description": "Sorvete",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2022-10-07T19:09:22.061Z"
+    },
+    {
+      "description": "Texugo",
+      "price": 123,
+      "category": "Loucura",
+      "type": "income",
+      "createdAt": "2022-11-08T00:54:15.498Z",
+      "id": 3
+    },
+    {
+      "description": "asdas",
+      "price": 23,
+      "category": "safasf",
+      "type": "outcome",
+      "createdAt": "2022-11-08T01:04:14.873Z",
+      "id": 4
+    },
+    {
+      "description": "asdas",
+      "price": 23434,
+      "category": "safasf",
+      "type": "income",
+      "createdAt": "2022-11-08T01:04:26.755Z",
+      "id": 5
+    },
+    {
+      "description": "asdas",
+      "price": 2323,
+      "category": "safasf",
+      "type": "outcome",
+      "createdAt": "2022-11-08T01:04:58.486Z",
+      "id": 6
+    }
+  ]
+}
