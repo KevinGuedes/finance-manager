@@ -11,10 +11,7 @@ interface Transaction {
   createdAt: string
 }
 
-type CreateNewTransactionData = Pick<
-  Transaction,
-  'description' | 'price' | 'type' | 'category'
->
+type CreateNewTransactionData = Omit<Transaction, 'id' | 'createdAt'>
 
 export interface TransactionsContextData {
   transactions: Transaction[]
